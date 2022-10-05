@@ -1,0 +1,51 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-1 {
+    border: solid;
+    border-radius: 2%;
+    background-color: rgb(65, 172, 65);
+    text-align: center;
+    padding: 2%;
+    color: aliceblue;
+}
+
+.datos {
+    padding: 2%;
+    padding-top: 100px;
+
+}
+
+.boton {
+    background-color: rgb(235, 186, 95);
+    color: aliceblue;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.boton:hover {
+    background-color: rgb(208, 155, 155);
+}
+
+.boton:active {
+    background-color: gray;
+}
+
+.lapto {
+    width: 10rem;
+}
+
+#colorCirculo {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-table;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}

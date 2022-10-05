@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="/assets/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="caja-1">
+            <div>
+                <img class="lapto" src="/assets/imgs/lapto1.jpg" alt="lapto">
+                <p>
+                    Laptop Gamer AMD
+                </p>
+            </div>
+            <div>
+                <input id="cantidadProducto" type="number" placeholder="Cantidad">
+                <p>
+                    <input id="colorProducto" type="text" placeholder="Color">
+                </p>
+                <p>Precio:$ <span id="precioProducto">400000</span></p>
+            </div>
+            <div>
+                <button onclick="calcularTotal()" class="boton">
+                    Calcular Total
+                </button>
+            </div>
+        </div>
+        <div class="datos">
+            <p>Total: $ <span id="valorTotal">0</span></p>
+            <p>Cantidad: <span id="cantidadTotal">0</span></p>
+            <div> Color:
+                <div id="colorCirculo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
